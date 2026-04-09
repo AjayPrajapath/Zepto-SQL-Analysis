@@ -16,6 +16,25 @@ This project focuses on analyzing Zepto's inventory dataset using SQL Server. Th
 
 ---
 
+## 📥 Data Import Process
+
+The dataset was imported into SQL Server using the Import Flat File Wizard in SQL Server Management Studio (SSMS).
+
+### Steps:
+1. Open SSMS and connect to the database
+2. Right-click on the database → Tasks → Import Flat File
+3. Select the CSV file (`zepto_v2.csv`)
+4. Preview and verify column names and data types
+5. Finish the import process (table is created automatically)
+
+---
+
+### ⚙️ Post-Import Adjustments
+- Verified column data types using INFORMATION_SCHEMA
+- Added a primary key column (`sku_id`) using IDENTITY
+- Cleaned data by removing invalid records (e.g., zero price)
+
+
 ## 🔍 Key Analysis Performed
 
 1. Top 10 products with highest discount
@@ -52,4 +71,4 @@ This project focuses on analyzing Zepto's inventory dataset using SQL Server. Th
 ---
 
 ## 🚀 Author
-Ajay Bhoriwal
+Ajay Prajapat
