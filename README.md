@@ -13,6 +13,7 @@ This project focuses on analyzing Zepto's inventory dataset using SQL Server. Th
 
 ## 📂 Dataset
 - Zepto product dataset (CSV file)
+- https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv
 
 ---
 
@@ -34,6 +35,7 @@ The dataset was imported into SQL Server using the Import Flat File Wizard in SQ
 - Added a primary key column (`sku_id`) using IDENTITY
 - Cleaned data by removing invalid records (e.g., zero price)
 
+---
 
 ## 🔍 Key Analysis Performed
 
